@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main(){
-  int a[10] = {0};
 
-  printf("Hello World\n\n");
+void my_func (char** a ) {
+	printf("I'm here");
+}
 
-  printf("%d\n\n", a[8]);
+int main() {
+    	char b[3][4] = { "I", "am", "Tom" } ;
+	my_func (b) ;
 
   return 0;
 }
